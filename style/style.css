@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.bg-video{ 
+    width: 100%;
+    height: 100%;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    position: fixed;
+    z-index: -1000;
+}
+
+.caixa{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.5em;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.caixa-logo {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+nav ul{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav li{
+    font-size: 2.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav li a {
+    color: white;
+}
+
+nav li a:hover{
+    color: green;
+    transition: 0.3s;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+p {
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+.caixa-hino {
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section ul{
+
+    display: inline-block;
+    width: 49%;
+
+    
+}
+section ul li {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    
+
+}
+
+.recrutamento-img{
+    width: 50%;
+    margin-top: 50px;
+}
+
+footer{
+    background: rgba(0,0,0,0.7);
+    padding: 50px 0;
+    text-align: center;   
+    margin-top: 50px; 
+
+}
+
+.rodape-img{
+    width: 100px;
+    height: 100px;
+}
+
+footer em {
+    font-size: 0.5em;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+@media screen and (max-width: 800px){
+
+    header{
+        margin-top: 10%;
+        margin-bottom: 30%;
+
+    }
+
+    .caixa, .caixa-hino{
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+    .caixa-logo{
+        width: 200px;
+
+    }
+    nav li{
+        display: block;
+        font-size: 2em;
+
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    header{
+        margin-top: 10%;
+        margin-bottom: 30%;
+
+    }
+
+    .caixa, .caixa-hino{
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+    .caixa-logo{
+        width: 200px;
+
+    }
+    nav li{
+        display: block;
+        font-size: 2em;
+        margin-left: 0;
+
+    }
+
+}
